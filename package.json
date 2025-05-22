@@ -5,10 +5,17 @@
   "main": "index.js",
   "scripts": {
     "dev": "vercel dev",
-    "deploy": "vercel deploy"
+    "start": "node index.js",
+    "build": "echo 'Build step completed'"
+  },
+  "engines": {
+    "node": ">=14.x"
   },
   "dependencies": {
-    "mongodb": "^4.13.0"
+    "mongodb": "^4.13.0",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "fs": "^0.0.1-security"
   },
   "devDependencies": {
     "vercel": "^28.10.1"
