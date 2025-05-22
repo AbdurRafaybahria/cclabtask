@@ -1,0 +1,16 @@
+{
+  "name": "user-registration-system",
+  "version": "1.0.0",
+  "description": "A simple user registration system with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy"
+  },
+  "dependencies": {
+    "mongodb": "^4.13.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.10.1"
+  }
+}
